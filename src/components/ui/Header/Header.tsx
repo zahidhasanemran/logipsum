@@ -5,7 +5,7 @@ import PrimaryLink from '../Link/PrimaryLink'
 
 const Header = (): React.ReactNode => {
   return (
-    <div className="">
+    <div className="absolute left-0 top-0 w-full ">
       <div className="container">
         <div className="flex items-center justify-between py-3 ">
           {/* Logo Start */}
@@ -24,7 +24,7 @@ const Header = (): React.ReactNode => {
               menus.map((sm: any) => (
                 <Link
                   key={sm.id}
-                  className="text-gray px-6 py-4 font-bold capitalize text-lg "
+                  className="text-grey px-6 py-4 font-bold font-space capitalize text-lg "
                   href={sm?.link}
                 >
                   {sm?.title}
@@ -34,7 +34,7 @@ const Header = (): React.ReactNode => {
           {/* Center Menu Ends */}
 
           {/* Right menu start */}
-          <div className="flex">
+          <div className="flex gap-4 ">
             <PrimaryLink
               link="/auth/login"
               text="Sign In"

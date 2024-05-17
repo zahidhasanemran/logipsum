@@ -1,20 +1,14 @@
 import type { Metadata } from 'next'
-import { Inter, Space_Grotesk, Plus_Jakarta_Sans } from 'next/font/google'
+import { Space_Grotesk, Plus_Jakarta_Sans } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/ui/Header/Header'
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
-})
 
 const space = Space_Grotesk({
   weight: ['400', '500', '600', '700'],
   style: ['normal'],
   subsets: ['latin'],
   variable: '--space-grotesk',
-  display: 'optional', // use optional for best performance
+  display: 'swap', // use swap for best performance
 })
 
 const jakarta = Plus_Jakarta_Sans({
@@ -22,7 +16,7 @@ const jakarta = Plus_Jakarta_Sans({
   style: ['normal'],
   subsets: ['latin'],
   variable: '--plus-jakarta',
-  display: 'optional', // use optional for best performance
+  display: 'swap', // use optional for best performance
 })
 
 export const metadata: Metadata = {
@@ -37,9 +31,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.className} ${space.className} ${jakarta.className} `}
-      >
+      <body className={` ${space.variable} ${jakarta.variable} `}>
         <Header />
         {children}
       </body>
