@@ -107,6 +107,13 @@ ul {
   font-family: var(--plus-jakarta);
 } */
 
+.title {
+  @apply font-space leading-[150%] text-[#131313] font-bold text-[48px] tracking-[-0.5%];
+}
+.title-white {
+  @apply font-space leading-[150%] text-white font-bold text-[48px] tracking-[-0.5%];
+}
+
 .para-lg {
   @apply font-space leading-[160%] text-xl text-grey tracking-[-0.5px];
 }
@@ -115,6 +122,9 @@ ul {
 }
 .para-md {
   @apply font-space leading-[150%] text-base text-grey tracking-[-0.5%];
+}
+.para-md-white {
+  @apply font-space leading-[150%] text-base text-white tracking-[-0.5%];
 }
 
 .btn {
@@ -159,4 +169,36 @@ ul {
   z-index: -99;
   border-radius: 5px;
   background: #e5e4dd;
+}
+
+.brands-slider .swiper-wrapper {
+  align-items: center;
+}
+.player-wrpper {
+  position: relative;
+  padding-top: 56.25%;
+  border-radius: 20px;
+}
+.react-player-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+}
+
+.react-player-custom .react-player__preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+.react-player-custom iframe {
+  border-radius: 20px;
+}
+
+.curriculum-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
 }

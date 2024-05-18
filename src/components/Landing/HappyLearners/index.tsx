@@ -8,7 +8,6 @@ const HappyLearners = () => {
     <div className="flex items-center gap-x-8 mt-12">
       <div className="flex gap-x-4">
         <div className="flex ml-5 ">
-           
           {learners.map((sm: any) => (
             <div className="-ml-5 cursor-pointer" key={sm?.id}>
               <Image
@@ -19,7 +18,7 @@ const HappyLearners = () => {
                 className="rounded-3xl"
               />
             </div>
-          ))}   
+          ))}
         </div>
         <div className="numbers">
           <h1 className="font-space font-bold text-[30px] text-[#12141D] leading-[42px] tracking-[-1px] ">

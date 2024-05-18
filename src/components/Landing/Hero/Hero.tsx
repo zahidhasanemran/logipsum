@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="container">
         <div className="pt-32 pb-12 flex">
           <div className="w-full lg:w-1/2">
-            <Alert text="Best Online Course" />
+            <Alert text="Best Online Course" variant="grey" />
             <h1 className="font-space text-lightblack font-bold text-[80px] tracking-[-1px] leading-[120%] py-5 ">
               Master the Art of Digital Domination
             </h1>
