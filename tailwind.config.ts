@@ -15,7 +15,7 @@ const config: Config = {
       },
       fontFamily: {
         space: ['var(--space-grotesk)'],
-        jakarta: ['var(--plus-jakarta)'],
+        // jakarta: ['var(--plus-jakarta)'],
         inter: ['var(--inter)'],
       },
       colors: {

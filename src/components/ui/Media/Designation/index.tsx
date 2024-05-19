@@ -11,7 +11,7 @@ const Designation = ({ img, title, desig }: any) => {
         <h5 className="font-space font-bold text-lg text-[#131313] leading-[160%] ">
           {title}
         </h5>
-        <p className="text-grey font-normal leading-[160%] font-jakarta text-[12px]  ">
+        <p className="text-grey font-normal leading-[160%] font-inter text-[12px]  ">
           {desig}
         </p>
       </div>

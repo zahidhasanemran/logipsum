@@ -39,7 +39,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${space.variable} ${jakarta.variable} ${inter.variable } `}
+        className={` 
+        ${space.variable} 
+        ${inter.variable} `}
       >
         <Header />
         {children}

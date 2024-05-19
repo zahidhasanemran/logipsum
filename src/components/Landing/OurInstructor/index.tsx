@@ -21,7 +21,7 @@ const OurInstructor = () => {
               </div>
               <div className=" absolute z-10 bottom-[10%] w-[70%] left-[45%] ml-[-37%] ">
                 <div className="bg-[#F0EFEB] outline outline-[#DBDBDB] py-8 px-8 text-center w-full  rounded-xl ">
-                  <h5 className="font-jakarta text-grey font-medium text-base ">
+                  <h5 className="font-inter text-grey font-medium text-base ">
                     INSTRUCTOR
                   </h5>
                   <h3 className="font-space font-bold leading-[125%] text-black text-[36px] mt-4 mb-8 ">
@@ -62,7 +62,7 @@ const OurInstructor = () => {
                 alt="comma"
                 className="absolute left-0 -top-[35px] w-[70px] "
               />
-              <p className="font-jakarta font-medium text-grey text-xl text-center leading-[150%]">
+              <p className="font-inter font-medium text-grey text-xl text-center leading-[150%]">
                 "As your dedicated instructor, I am thrilled to embark on this
                 exciting journey with you, guiding you towards digital marketing
                 mastery. Drawing from years of experience navigating the

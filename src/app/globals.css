@@ -128,7 +128,7 @@ ul {
 }
 
 .btn {
-  @apply font-medium py-4 px-8 rounded border text-base transition border-solid border-blue font-jakarta;
+  @apply font-medium py-4 px-8 rounded border text-base transition border-solid border-blue font-inter;
 }
 
 .btn-primary {

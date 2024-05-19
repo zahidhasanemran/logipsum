@@ -30,7 +30,7 @@ const Certified = () => {
                         height={20}
                       />
                     </div>
-                    <p className="text-grey font-medium font-jakarta text-base leading-[160%] ">
+                    <p className="text-grey font-medium font-inter text-base leading-[160%] ">
                       {sm?.text}
                     </p>
                   </MediaList>
