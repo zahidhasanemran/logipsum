@@ -143,6 +143,8 @@ ul {
   @apply max-w-[1320px] mx-auto;
 }
 
+.instructor-image-bg,
+.instructor-wrapper,
 .hero-image-bg,
 .hero-wrapper {
   position: relative;
@@ -158,6 +160,16 @@ ul {
   z-index: -99;
   background: #c8e5ee;
 }
+.instructor-wrapper:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '';
+  width: 35%;
+  height: 70%;
+  z-index: -99;
+  background: #c8e5ee;
+}
 .hero-image-bg:before {
   position: absolute;
   left: 52%;
@@ -166,6 +178,18 @@ ul {
   content: '';
   width: 80%;
   height: 70%;
+  z-index: -99;
+  border-radius: 5px;
+  background: #e5e4dd;
+}
+.instructor-image-bg:before {
+  position: absolute;
+  left: 47%;
+  margin-left: -48%;
+  bottom: 0;
+  content: '';
+  width: 90%;
+  height: 80%;
   z-index: -99;
   border-radius: 5px;
   background: #e5e4dd;
