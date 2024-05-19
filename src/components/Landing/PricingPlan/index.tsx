@@ -37,18 +37,18 @@ const PricingPlan = () => {
                   <div className="border ml-12 mr-6 border-solid border-[#CDCDCD] h-[100px] "></div>
                   <ul>
                     <li className="flex gap-x-3 mb-3">
-                      <FaHandPointRight />
+                      <FaHandPointRight color="#575757" />
                       <p className="para-md text-left">Pay in full Advance</p>
                     </li>
                     <li className="flex gap-x-3 mb-3">
-                      <FaHandPointRight />
+                      <FaHandPointRight color="#575757" />
                       <p className="para-md text-left">
                         Discounted Price: $100 (Save $20)
                       </p>
                     </li>
                   </ul>
                 </div>
-                <div className="border border-[#CDCDCD] border-solid my-6 w-full h-[1px] "></div>
+                <div className="border border-[#CDCDCD] border-solid mt-12 mb-6 w-full h-[1px] "></div>
                 <div className="pt-2 w-full">
                   <PrimaryLink
                     text="Enroll Now"

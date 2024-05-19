@@ -36,8 +36,13 @@ const Curriculum = () => {
                   </h3>
                   <p className="para-md mb-5">{sm?.text}</p>
                   <div className="flex items-center  ">
-                    <p className="para-md">{sm?.lecture} Lectures | </p>
-                    <p className="para-md ml-1"> {numberToTime(sm?.min)}</p>
+                    <p className="para-md font-medium">
+                      {sm?.lecture} Lectures |{' '}
+                    </p>
+                    <p className="para-md font-medium ml-1">
+                      {' '}
+                      {numberToTime(sm?.min)}
+                    </p>
                   </div>
                 </div>
               </Card>

@@ -36,9 +36,9 @@ const Hero = () => {
 
             <HappyLearners />
           </div>
-          <div className="right">
+          <div className="right pl-8">
             <div className="relative">
-              <div className="min-w-[300px] inline-block absolute -left-1/4 z-10 top-[25%]  ">
+              <div className="min-w-[300px] inline-block absolute -left-[10%] z-10 top-[30%]  ">
                 <MediaCard
                   icon="/assets/duration.svg"
                   title="Duration"

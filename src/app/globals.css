@@ -155,7 +155,7 @@ ul {
   right: 0;
   top: 0;
   content: '';
-  width: 40%;
+  width: 38%;
   height: 70%;
   z-index: -99;
   background: #c8e5ee;
@@ -177,10 +177,10 @@ ul {
   bottom: 0;
   content: '';
   width: 80%;
-  height: 70%;
+  height: 80%;
   z-index: -99;
   border-radius: 5px;
-  background: #e5e4dd;
+  background: #e5e4dd8a;
 }
 .instructor-image-bg:before {
   position: absolute;
@@ -192,7 +192,7 @@ ul {
   height: 80%;
   z-index: -99;
   border-radius: 30px;
-  background: #e5e4dd;
+  background: #e5e4dd80;
 }
 
 .brands-slider .swiper-wrapper {
@@ -202,6 +202,8 @@ ul {
   position: relative;
   padding-top: 56.25%;
   border-radius: 20px;
+  width: 90%;
+  margin: 0 auto;
 }
 .react-player-custom {
   position: absolute;
