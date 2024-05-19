@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className="hero-wrapper">
       <div className="container">
-        <div className="pt-32 pb-12 flex">
+        <div className="pt-32 pb-14 flex">
           <div className="w-full lg:w-1/2">
             <Alert text="Best Online Course" variant="grey" />
             <h1 className="font-space text-lightblack font-bold text-[80px] tracking-[-1px] leading-[120%] py-5 ">
@@ -23,7 +23,7 @@ const Hero = () => {
             <div className="flex gap-4 mt-12 ">
               <PrimaryLink
                 link="/auth/login"
-                text="Enroll Now"
+                text="Register Now"
                 variant="primary"
               />
 
@@ -54,7 +54,7 @@ const Hero = () => {
                   className=""
                 />
               </div>
-              <div className="min-w-[300px] inline-block absolute -right-[100px] z-10 bottom-[20%] ">
+              <div className="min-w-[300px] inline-block absolute -right-[100px] z-10 bottom-[30%] ">
                 <MediaCard
                   icon="/assets/success-rate.svg"
                   title="90%"

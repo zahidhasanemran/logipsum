@@ -4,7 +4,7 @@ import React from 'react'
 
 const Faqs = () => {
   return (
-    <div className="">
+    <div className="pb-24">
       <div className="container">
         <div className="">
           <div className="w-full lg:w-1/2">

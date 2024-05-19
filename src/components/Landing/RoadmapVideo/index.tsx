@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player'
 
 const RoadmapVideo = () => {
   return (
-    <div className="pb-16">
+    <div className="pb-24">
       <div className="container mx-auto ">
         <div className="text-center mx-auto player-wrpper">
           <ReactPlayer

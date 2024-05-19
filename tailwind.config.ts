@@ -16,6 +16,7 @@ const config: Config = {
       fontFamily: {
         space: ['var(--space-grotesk)'],
         jakarta: ['var(--plus-jakarta)'],
+        inter: ['var(--inter)'],
       },
       colors: {
         grey: '#575757',

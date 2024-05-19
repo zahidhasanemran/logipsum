@@ -5,7 +5,7 @@ import { FaStar, FaRegStar } from 'react-icons/fa'
 
 const HappyLearners = () => {
   return (
-    <div className="flex items-center gap-x-8 mt-12">
+    <div className="flex items-center gap-x-8 mt-14">
       <div className="flex gap-x-4">
         <div className="flex ml-5 ">
           {learners.map((sm: any) => (

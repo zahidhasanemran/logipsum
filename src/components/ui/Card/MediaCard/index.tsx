@@ -9,9 +9,9 @@ interface Propstpe {
 
 const MediaCard = ({ icon, title, text }: Propstpe) => {
   return (
-    <div className="rounded-lg py-2 px-4 bg-white w-auto shadow-media-card flex items-center gap-x-4 ">
+    <div className="rounded-lg py-2 px-4 bg-[#ffffffb5] w-auto shadow-media-card flex items-center gap-x-4 ">
       <div className="">
-        <Image src={icon} alt="icon" width={52} height={52} />
+        <Image src={icon} alt="icon" width={46} height={46} />
       </div>
       <div className="">
         <h4 className="font-space mb-0 font-bold text-[32px] leading-[120%] text-black ">

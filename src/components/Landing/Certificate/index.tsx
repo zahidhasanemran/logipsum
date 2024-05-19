@@ -6,7 +6,7 @@ import React from 'react'
 
 const Certified = () => {
   return (
-    <div className="bg-[#F0EFEB] py-12">
+    <div className="bg-[#F0EFEB] py-20">
       <div className="container">
         <div className="block lg:flex lg:items-center justify-between">
           <div className="w-full lg:w-3/5 ">
@@ -14,7 +14,7 @@ const Certified = () => {
             <h2 className="title mt-4 mb-2 w-full ">
               Become a Certified Digital Marketer
             </h2>
-            <p className="para-md w-full mb-12 lg:w-2/3">
+            <p className="para-md w-full mb-9 lg:w-2/3">
               In our Certificate Section, we celebrate your dedication and
               accomplishment in mastering the art of digital marketing.
             </p>
@@ -26,8 +26,8 @@ const Certified = () => {
                       <Image
                         src="/assets/tik.svg"
                         alt="ok"
-                        width={24}
-                        height={24}
+                        width={20}
+                        height={20}
                       />
                     </div>
                     <p className="text-grey font-medium font-jakarta text-base leading-[160%] ">

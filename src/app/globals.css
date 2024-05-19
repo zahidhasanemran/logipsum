@@ -108,10 +108,10 @@ ul {
 } */
 
 .title {
-  @apply font-space leading-[150%] text-[#131313] font-bold text-[48px] tracking-[-0.5%];
+  @apply font-space leading-[125%] text-[#131313] font-bold text-[48px] tracking-[-0.5%];
 }
 .title-white {
-  @apply font-space leading-[150%] text-white font-bold text-[48px] tracking-[-0.5%];
+  @apply font-space leading-[150%] text-[#F0EFEB] font-bold text-[48px] tracking-[-0.5%];
 }
 
 .para-lg {
@@ -124,7 +124,7 @@ ul {
   @apply font-space leading-[150%] text-base text-grey tracking-[-0.5%];
 }
 .para-md-white {
-  @apply font-space leading-[150%] text-base text-white tracking-[-0.5%];
+  @apply font-space leading-[150%] text-base text-[#F0EFEB] tracking-[-0.5%];
 }
 
 .btn {
@@ -191,7 +191,7 @@ ul {
   width: 90%;
   height: 80%;
   z-index: -99;
-  border-radius: 5px;
+  border-radius: 30px;
   background: #e5e4dd;
 }
 

@@ -9,7 +9,7 @@ import React from 'react'
 
 const Testimonial = () => {
   return (
-    <div className="pt-12 pb-12 bg-[#131313] ">
+    <div className="pt-20 pb-20 bg-[#131313] ">
       <div className="container text-center">
         <Alert text="Testimonial" variant="white" />
         <h2 className="title-white mt-4 mb-2 w-full xl:w-[60%] mx-auto ">
@@ -28,11 +28,11 @@ const Testimonial = () => {
                   <Image
                     src="./assets/comma.svg"
                     alt={sm?.title}
-                    width={56}
-                    height={56}
+                    width={40}
+                    height={40}
                     className=""
                   />
-                  <p className="mt-5 mb-5 font-medium font-space text-base text-grey ">
+                  <p className="mt-5 mb-9 font-medium font-inter text-base text-grey ">
                     {sm?.text}
                   </p>
 

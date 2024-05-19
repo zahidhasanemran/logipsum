@@ -10,7 +10,7 @@ import { brands } from '@/constants/data'
 
 const BrandSlider = () => {
   return (
-    <div className="mt-8 mb-12 container brands-slider ">
+    <div className="mt-12 mb-14 container brands-slider ">
       <Swiper
         spaceBetween={50}
         slidesPerView={5}

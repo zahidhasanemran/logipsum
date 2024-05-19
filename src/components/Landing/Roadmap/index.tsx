@@ -14,13 +14,13 @@ const Roadmap = () => {
   }, [])
 
   return (
-    <div className="pt-12">
+    <div className="pt-14">
       <div className="container text-center">
         <Alert text="About Course" variant="gray" />
         <h2 className="title mt-4 mb-2 w-full xl:w-[60%] mx-auto ">
           Your Comprehensive Roadmap to Online Success
         </h2>
-        <p className="para-md  w-full xl:w-[40%] mx-auto mb-5">
+        <p className="para-md  w-full xl:w-[40%] mx-auto mb-16">
           Embark on a transformative journey towards digital marketing mastery
           with our comprehensive course.
         </p>

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Space_Grotesk, Plus_Jakarta_Sans } from 'next/font/google'
+import { Space_Grotesk, Plus_Jakarta_Sans, Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/ui/Header/Header'
 
@@ -18,6 +18,13 @@ const jakarta = Plus_Jakarta_Sans({
   variable: '--plus-jakarta',
   display: 'swap', // use optional for best performance
 })
+const inter = Inter({
+  weight: ['400', '500', '600', '700'],
+  style: ['normal'],
+  subsets: ['latin'],
+  variable: '--inter',
+  display: 'swap', // use optional for best performance
+})
 
 export const metadata: Metadata = {
   title: 'Logipsum',
@@ -31,7 +38,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={` ${space.variable} ${jakarta.variable} `}>
+      <body
+        className={` ${space.variable} ${jakarta.variable} ${inter.variable } `}
+      >
         <Header />
         {children}
       </body>

@@ -5,7 +5,7 @@ import { FaHandPointRight } from 'react-icons/fa'
 
 const PricingPlan = () => {
   return (
-    <div className="pt-12 pb-6">
+    <div className="pt-24 pb-24">
       <div className="container">
         <div className="text-center">
           <Alert text="Pricing" variant="gray" />

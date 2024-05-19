@@ -8,7 +8,7 @@ import React from 'react'
 
 const Curriculum = () => {
   return (
-    <div className="pt-12 pb-12 bg-[#F0EFEB] ">
+    <div className="pt-20 pb-20 bg-[#F0EFEB] ">
       <div className="container text-center">
         <Alert text="About Curriculum" variant="white" />
         <h2 className="title mt-4 mb-2 w-full xl:w-[60%] mx-auto ">

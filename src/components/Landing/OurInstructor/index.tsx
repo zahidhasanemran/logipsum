@@ -7,7 +7,7 @@ const OurInstructor = () => {
   return (
     <div className="instructor-wrapper">
       <div className="container">
-        <div className="pt-32 pb-12 flex">
+        <div className="pt-32 pb-24 flex">
           <div className="w-full lg:w-[45%]">
             <div className="relative">
               <div className="instructor-image-bg">
@@ -20,7 +20,7 @@ const OurInstructor = () => {
                 />
               </div>
               <div className=" absolute z-10 bottom-[10%] w-[70%] left-[45%] ml-[-37%] ">
-                <div className="bg-[#DBDBDB] py-8 px-8 text-center w-full  rounded-xl ">
+                <div className="bg-[#F0EFEB] outline outline-[#DBDBDB] py-8 px-8 text-center w-full  rounded-xl ">
                   <h5 className="font-jakarta text-grey font-medium text-base ">
                     INSTRUCTOR
                   </h5>
