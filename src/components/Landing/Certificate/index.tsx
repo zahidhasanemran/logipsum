@@ -14,7 +14,7 @@ const Certified = () => {
             <h2 className="title mt-4 mb-2 w-full ">
               Become a Certified Digital Marketer
             </h2>
-            <p className="para-md w-full mb-12">
+            <p className="para-md w-full mb-12 lg:w-2/3">
               In our Certificate Section, we celebrate your dedication and
               accomplishment in mastering the art of digital marketing.
             </p>

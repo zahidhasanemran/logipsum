@@ -1,5 +1,6 @@
 import Certified from '@/components/Landing/Certificate'
 import Curriculum from '@/components/Landing/Curriculum'
+import Faqs from '@/components/Landing/Faqs'
 import Hero from '@/components/Landing/Hero/Hero'
 import JobPlacement from '@/components/Landing/JobPlacement'
 import OurInstructor from '@/components/Landing/OurInstructor'
@@ -18,6 +19,7 @@ export default function Home() {
       <Testimonial />
       <Certified />
       <PricingPlan />
+      <Faqs />
     </div>
   )
 }

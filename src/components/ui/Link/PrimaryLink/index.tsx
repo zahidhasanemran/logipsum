@@ -5,12 +5,18 @@ interface LinkType {
   text: string
   link: string
   variant: 'primary' | 'secondary'
+  display?: string
 }
 
-const PrimaryLink = ({ text, link, variant = 'primary' }: LinkType) => {
+const PrimaryLink = ({
+  text,
+  link,
+  variant = 'primary',
+  display = 'inline-block',
+}: LinkType) => {
   const variclass = variant === 'primary' ? 'btn-primary' : 'btn-secondary'
   return (
-    <Link className={`btn ${variclass}`} href={link}>
+    <Link className={`btn ${display} ${variclass}`} href={link}>
       {text}
     </Link>
   )

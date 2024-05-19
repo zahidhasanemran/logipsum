@@ -21,7 +21,11 @@ const Hero = () => {
             </p>
 
             <div className="flex gap-4 mt-12 ">
-              <PrimaryLink link="/auth/login" text="Now" variant="primary" />
+              <PrimaryLink
+                link="/auth/login"
+                text="Enroll Now"
+                variant="primary"
+              />
 
               <PrimaryLink
                 link="/contact"
