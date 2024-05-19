@@ -129,3 +129,11 @@ export const testimonials = [
     img: '/assets/learner2.png',
   },
 ]
+
+export const certifiedFeatures = [
+  { id: 1, text: 'Propel Your Career Forward with Recognized Credentials' },
+  { id: 2, text: 'Enhance Your Professional Credibility and Reputation' },
+  { id: 3, text: 'Expand Your Professional Network and Connections' },
+  { id: 4, text: 'Access Ongoing Learning Resources and Alumni Support' },
+  { id: 5, text: 'Boost Your Confidence and Competence in Digital Marketing' },
+]

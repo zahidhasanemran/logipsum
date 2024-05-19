@@ -19,7 +19,7 @@ const OurInstructor = () => {
                   className=""
                 />
               </div>
-              <div className=" absolute z-10 bottom-[10%] w-[60%] left-[50%] ml-[-37%] ">
+              <div className=" absolute z-10 bottom-[10%] w-[70%] left-[45%] ml-[-37%] ">
                 <div className="bg-[#DBDBDB] py-8 px-8 text-center w-full  rounded-xl ">
                   <h5 className="font-jakarta text-grey font-medium text-base ">
                     INSTRUCTOR
